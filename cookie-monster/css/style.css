@@ -1,0 +1,66 @@
+/* 
+
+Project Name: Cookie Monster 
+Client: Cookie Monster
+Author: Chris Castig  
+Developed in NYC
+
+*/
+
+/* 
+1. Change the text (title)
+2. Change the background image
+3. Change at least one color (hexadecimal)
+*/
+
+html {
+	/* set up a background image */
+	
+	/*background: url('../images/cookie-monster.jpg') no-repeat;*/
+
+	background: url('../images/cookie-monster.jpg') no-repeat;
+	
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+body {
+	color: white;
+	width: 450px;
+}
+
+#container {
+	background:  black;
+	width: 450px;
+	padding:  10px;
+ 	opacity: 0.7;
+}
+
+h1 {
+	font-size: 60px;
+	color:  white;
+	padding:  5px;
+}
+
+h2 {
+	background: #35C0F2;
+	color: black;
+	padding:  5px;
+	border-radius:  8px;
+}
+
+a {
+	color:  #35C0F2;
+}
+
+
+
+
+
+
